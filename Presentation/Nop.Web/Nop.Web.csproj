@@ -64,6 +64,633 @@
     <Content Update="**\*.config;**\*.json" CopyToOutputDirectory="Never" CopyToPublishDirectory="PreserveNewest" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Themes\Kagan\Views\BackInStockSubscription\CustomerSubscriptions.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\BackInStockSubscription\SubscribePopup.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Blog\BlogPost.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Blog\Components\BlogMonths\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Blog\Components\BlogTags\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Blog\List.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\ActiveDiscussions.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\Components\ForumActiveDiscussionsSmall\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\Components\ForumBreadcrumb\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\Components\ForumLastPost\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\CustomerForumSubscriptions.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\Forum.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\ForumGroup.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\PostCreate.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\PostEdit.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\Search.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\Topic.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\TopicCreate.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\TopicEdit.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\TopicMove.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\_ActiveTopics.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\_CreateUpdatePost.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\_CreateUpdateTopic.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\_ForumGroup.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\_ForumHeader.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\_ForumPost.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Boards\_SearchBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\CategoryTemplate.ProductsInGridOrLines.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\ManufacturerAll.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\ManufacturerTemplate.ProductsInGridOrLines.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\NewProducts.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\ProductsByTag.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\ProductTagsAll.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\Search.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\Vendor.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\VendorAll.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\VendorReviews.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\_CatalogFilters.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\_CatalogProducts.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\_CatalogSelectors.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\_FilterManufacturerBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\_FilterPriceBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\_FilterSpecsBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\_ProductsInGridOrLines.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Catalog\_VendorProductReviews.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\BillingAddress.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\Completed.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\Confirm.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\OnePageCheckout.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\OpcBillingAddress.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\OpcConfirmOrder.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\OpcPaymentInfo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\OpcPaymentMethods.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\OpcShippingAddress.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\OpcShippingMethods.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\PaymentInfo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\PaymentMethod.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\ShippingAddress.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\ShippingMethod.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Checkout\_PickupPoints.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Common\ContactUs.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Common\ContactVendor.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Common\PageNotFound.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Common\Sitemap.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Common\StoreClosed.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\AccountActivation.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\AddressAdd.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\AddressEdit.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\Addresses.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\Avatar.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\ChangePassword.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\CheckGiftCardBalance.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\ConfigureMultiFactorAuthenticationProvider.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\DownloadableProducts.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\EmailRevalidation.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\GdprTools.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\Info.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\Login.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\MultiFactorAuthentication.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\MultiFactorVerification.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\PasswordRecovery.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\PasswordRecoveryConfirm.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\Register.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\RegisterResult.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\UserAgreement.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\_CheckUsernameAvailability.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\_CustomerAttributes.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\_ExternalAuthentication.Errors.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Customer\_MultiFactorAuthenticationProviders.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Install\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Install\_Install.ConnectionString.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Install\_ViewImports.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Newsletter\SubscriptionActivation.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\News\List.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\News\NewsItem.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Order\CustomerOrders.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Order\CustomerRewardPoints.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Order\Details.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Order\ShipmentDetails.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\PrivateMessages\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\PrivateMessages\SendPM.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\PrivateMessages\ViewPM.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\CompareProducts.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\CustomerProductReviews.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\ProductEmailAFriend.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\ProductTemplate.Grouped.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\ProductTemplate.Simple.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\RecentlyViewedProducts.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_AddToCart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_AddToWishlist.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_Availability.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_BackInStockSubscription.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_CompareProductsButton.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_DeliveryInfo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_Discontinued.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_DownloadSample.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_GiftCardInfo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductAttributes.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductBreadcrumb.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductDetailsPictures.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductDetailsVideos.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductEmailAFriendButton.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductEstimateShipping.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductManufacturers.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductPrice.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductReviewOverview.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductReviews.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductSpecifications.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductTags.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ProductTierPrices.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_RentalInfo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_ShareButton.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Product\_SKU_Man_GTIN_Ven.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Profile\Components\ProfileInfo\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Profile\Components\ProfilePosts\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Profile\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\ReturnRequest\CustomerReturnRequests.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\ReturnRequest\ReturnRequest.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\AdminHeaderLinks\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\BlogRssHeaderLink\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\CategoryNavigation\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\CheckoutProgress\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\CrossSellProducts\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\CurrencySelector\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\CustomerNavigation\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\EuCookieLaw\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\ExternalMethods\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\Favicon\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\FlyoutShoppingCart\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\Footer\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\HeaderLinks\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\HomepageBestSellers\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\HomepageCategories\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\HomepageNews\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\HomepagePolls\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\HomepageProducts\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\LanguageSelector\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\Logo\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\ManufacturerNavigation\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\NewsletterBox\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\NewsRssHeaderLink\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\OrderSummary\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\OrderTotals\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\PollBlock\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\PopularProductTags\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\PrivateMessagesInbox\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\PrivateMessagesSentItems\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\ProductsAlsoPurchased\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\RecentlyViewedProductsBlock\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\RelatedProducts\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\SearchBox\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\SelectedCheckoutAttributes\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\ShoppingCartEstimateShipping\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\SocialButtons\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\StoreThemeSelector\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\TaxTypeSelector\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\TopicBlock\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\TopMenu\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\VendorNavigation\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\Components\Widget\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_AddressAttributes.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_CheckoutAttributes.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_ColumnsOne.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_ColumnsTwo.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_CreateOrUpdateAddress.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_DiscountBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_EstimateShippingPopUp.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_Header.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_JavaScriptDisabledWarning.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_Notifications.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_OrderReviewData.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_Poll.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_Print.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_ProductBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_ProductReviewHelpfulness.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_Root.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Shared\_Root.Head.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\ShoppingCart\Cart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\ShoppingCart\EmailWishlist.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\ShoppingCart\Wishlist.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\ShoppingCart\_GiftCardBox.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Topic\TopicDetails.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Vendor\ApplyVendor.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Vendor\Info.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\Vendor\_VendorAttributes.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+    <Content Update="Themes\Kagan\Views\_ViewStart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+  </ItemGroup>
+
   <!-- This target execute after "Build" target.
     We use it to clean up folder with plugins from unnecessary and obsolete libraries. -->
   <Target Name="NopTarget" AfterTargets="Build">

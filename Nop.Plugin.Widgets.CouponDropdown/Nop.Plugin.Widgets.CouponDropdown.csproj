@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Target Name="CopyPluginOutput" AfterTargets="Build">
+    <MakeDir Directories="$(SolutionDir)Presentation\Nop.Web\Plugins\Widgets.CouponDropdown" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(SolutionDir)Presentation\Nop.Web\Plugins\Widgets.CouponDropdown" />
+    <Copy SourceFiles="plugin.json" DestinationFolder="$(SolutionDir)Presentation\Nop.Web\Plugins\Widgets.CouponDropdown" />
+  </Target>
+
+  <ItemGroup>
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Libraries\Nop.Core\Nop.Core.csproj" />
+    <ProjectReference Include="..\Libraries\Nop.Services\Nop.Services.csproj" />
+    <ProjectReference Include="..\Presentation\Nop.Web.Framework\Nop.Web.Framework.csproj" />
+  </ItemGroup>
+
+</Project>

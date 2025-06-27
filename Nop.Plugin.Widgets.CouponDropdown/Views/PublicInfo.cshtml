@@ -1,0 +1,30 @@
+@model List<Nop.Plugin.Widgets.CouponDropdown.Models.CouponModel>
+
+<div class="coupon-dropdown">
+    <label for="couponSelect">Kupon Seçin:</label>
+    <select id="couponSelect" class="form-control">
+        <option value="">-- Kupon Seçin --</option>
+        @foreach (var coupon in Model)
+        {
+            <option value="@coupon.Code">@coupon.Name</option>
+        }
+    </select>
+</div>
+
+<script>
+    const dropdown = document.getElementById("couponSelect");
+
+    dropdown.addEventListener("change", function () {
+        const selected = this.value;
+        const input = document.querySelector('input[name="discountcouponcode"]');
+        const button = document.querySelector('button[name="applydiscountcouponcode"]');
+
+        if (input && selected) {
+            input.value = selected;
+
+            if (button) {
+                setTimeout(() => button.click(), 300); // ufak gecikmeyle otomatik týklama
+            }
+        }
+    });
+</script>

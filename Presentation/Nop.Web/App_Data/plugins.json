@@ -106,6 +106,18 @@
     {
       "SystemName": "Payments.SecondPayment",
       "Version": "1.00"
+    },
+    {
+      "SystemName": "Widgets.CouponDropdown",
+      "Version": "1.00"
+    },
+    {
+      "SystemName": "NopAdvance.Core",
+      "Version": "1.18"
+    },
+    {
+      "SystemName": "NopAdvance.DiscountRules.CartSubTotal",
+      "Version": "1.05"
     }
   ],
   "PluginNamesToUninstall": [],

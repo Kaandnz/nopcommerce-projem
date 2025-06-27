@@ -1,0 +1,10 @@
+{
+  "Group": "Widgets",
+  "FriendlyName": "Coupon Dropdown",
+  "SystemName": "Widgets.CouponDropdown",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.80" ],
+  "Author": "Kagan deniz",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Widgets.CouponDropdown.dll"
+}
